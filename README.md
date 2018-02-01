@@ -1,4 +1,7 @@
 # database-js-forward
+
+[![Build Status](https://travis-ci.org/mlaanderson/database-js-forward.svg?branch=master)](https://travis-ci.org/mlaanderson/database-js-forward)
+
 Forwards database-js calls onto a base driver with debug output of SQL commands
 
 # About

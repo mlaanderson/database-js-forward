@@ -4,7 +4,7 @@
   "description": "Forwards database-js calls onto a base driver with debug output of SQL commands",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/mlaanderson/database-js-forward#readme",
   "dependencies": {
     "debug": "^3.0.1"
+  },
+  "devDependencies": {
+    "database-js": "^3.0.2",
+    "database-js-postgres": "^1.1.2"
   }
 }
